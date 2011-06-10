@@ -23,9 +23,9 @@ public class AutoEmail {
 
         Session session = null;
         String host = "smtp.gmail.com";
-        String userid = "abcd@gmail.com";
-        String Password = "efgh";
-        String from = "abcd@gmail.com";
+        String userid = "ranveer.raghu@gmail.com";
+        String Password = "goldcook83";
+        String from = "ranveer.raghu@gmail.com";
 
 
 
