@@ -1,0 +1,85 @@
+# -- standard errors --
+errors.header=<UL>
+errors.prefix=<LI>
+errors.suffix=</LI>
+errors.footer=</UL>
+# -- validator --
+errors.invalid={0} is invalid.
+errors.maxlength={0} can not be greater than {1} characters.
+errors.minlength={0} can not be less than {1} characters.
+errors.range={0} is not in the range {1} through {2}.
+errors.required={0} is required.
+errors.byte={0} must be an byte.
+errors.date={0} is not a date.
+errors.double={0} must be an double.
+errors.float={0} must be an float.
+errors.integer={0} must be an integer.
+errors.long={0} must be an long.
+errors.short={0} must be an short.
+errors.creditcard={0} is not a valid credit card number.
+errors.email={0} is an invalid e-mail address.
+# -- other --
+errors.cancel=Operation cancelled.
+errors.detail={0}
+errors.general=The process did not complete. Details should follow.
+errors.token=Request could not be completed. Operation is not in sequence.
+# -- welcome --
+welcome.title=Struts Application
+welcome.heading=Struts Applications in Netbeans!
+welcome.message=It's easy to create Struts applications with NetBeans.
+# -- LoginForm Validate --
+error.name = name must have 3 characters
+error.email = email must have 3 characters
+
+#-- AddBookForm
+error.title.required = invalid field/(Min Length 3)
+error.author.required = invalid field/(Min Length 3)
+error.Publication.required = invalid field/(Min Length 1)
+error.Category.required = invalid field/(Min Length 3)
+error.Edition.required = invalid field/(integer only)
+error.ISBNNumber.required = invalid field
+
+#-- IssueBookForm --
+
+error.loginID.required = Invalid Field/Min Lenght 3
+error.ISBNNumber.required = Invalid Field/Min Lenght 3
+error.adminID.required = Invalid Field/Min Lenght 3
+error.duedate.required = check due date
+error.required.ISBN = ISBN doesn't exist
+error.ISBNPresent   = Book Already Issued
+error.loginIDPresent = User not registered
+error.required.ISBNDeposit = Book not Issued
+error.required.ISBNDelete = ISBN Doesn't Exist
+error.required.ISBNIssue = Book Issued 
+
+#-- DeleteBookForm --
+
+error.ISBNNumber.required = Invalid field
+error.required.ISBNDelete = ISBN Doesn't Exist
+error.required.ISBNIssue = Book Issued
+
+# -- DepositForm --
+error.ISBNNumber.required = Invalid Field
+error.required.ISBNDeposit = Book not Issued
+
+#--RegistrationForm --
+error.loginID.required = Invalid Field/Min Length 3
+error.password.required = Min Length 5
+error.firstname.required = Invalid Field/Min Length 3
+error.lastname.required = Invalid Field/Min Length 3
+error.emailid.required = Invalid EmailID
+error.dob.required =  Invalid Field
+error.loginIDPresent = User Already Registered
+
+#--ForgotPasswordForm --
+error.emailid.required = Invalid Field
+error.emailID.required = email doesn't exist
+
+
+
+
+
+
+
+
+
